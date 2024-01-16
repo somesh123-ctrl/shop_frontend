@@ -1,0 +1,206 @@
+img{
+    max-height: 673px;
+}
+.home{
+    margin-bottom: 30px
+}
+
+.button1{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #dc5454;
+    background-color: #ffffff;
+    border-radius: 6%;
+    border-width: 5px;
+}
+.button1:hover{
+    height: 55px;
+    font-weight: bolder;
+    font-size: 25px;
+    border-style: solid;
+    border-color: #eed8d8;
+    background-color: rgb(154, 162, 0);
+    border-radius: 6%;
+    border-width: 5px;
+    color: #eee;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card-offer {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+    
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+    
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(255, 255, 255);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(255, 255, 255);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card-offer {
+    min-height: 312px;
+    background-color: #562709;
+border-radius: 50%;
+color: #eee;
+}
+.backside .card-offer{
+    min-height:250px;    
+    background-color: rgb(221, 119, 56);
+}
+
+.backside .card-offer a {
+    font-size: 18px;
+    color: #efefef !important;
+}
+
+.frontside .card-offer .card-title,
+.backside .card-offer .card-title {
+    color: #ffffff !important;
+}
+
+.frontside .card-offer .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.backside .card-offer .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.card1{
+    animation-name: floating1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    
+}
+
+.card2{
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    
+}
+
+.card3{
+    animation-name: floating1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    
+}
+@keyframes floating1 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+@keyframes floating2 {
+    100% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    0%   { transform: translate(0, -0px); }    
+
+}

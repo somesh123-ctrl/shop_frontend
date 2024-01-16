@@ -1,0 +1,114 @@
+.details{
+    text-align: center;
+}
+table{
+    max-width: 800px;
+    margin-left: 20%;
+    border-style: solid;
+    margin-top: 50px;
+}
+.main{
+    border-style: solid;
+}
+tr{
+    border-style: solid;
+    border-color: black;
+}
+th{
+    border-style: solid;
+    border-color: black;
+}
+td{
+    border-style: solid;
+    border-color: black;
+}
+span{
+    color: rgb(107, 99, 87);
+font-weight: bolder
+;}
+
+.delivery{
+    display: flex;
+    margin-top: 60px;
+}
+.cash_payment{
+    padding: 10px;
+    margin-left: 100px;
+    background-color: aquamarine;
+}
+.online_payment{
+    padding: 10px;
+    margin-left: 100px;
+    background-color: rgb(198, 245, 151);
+}
+
+.cash_payment:hover{
+color: aliceblue;
+font-weight: bolder;
+    background-color: rgb(9, 96, 67);
+}
+.online_payment:hover{
+    color: aliceblue;
+    font-weight: bolder;
+    background-color: rgb(48, 91, 6);
+}
+
+
+
+@media (max-width: 480px) {
+    table{
+        max-width: 400px;
+        margin-left: 2%;
+        border-style: solid;
+        margin-top: 25px;
+    }
+    .details{
+        text-align: center;
+    }
+
+    .main{
+        border-style: solid;
+    }
+    tr{
+        border-style: solid;
+        border-color: black;
+    }
+    th{
+        border-style: solid;
+        border-color: black;
+    }
+    td{
+        border-style: solid;
+        border-color: black;
+    }
+    span{
+        color: rgb(107, 99, 87);
+    font-weight: bolder
+    ;}
+    
+    .delivery{
+        display: flex;
+        margin-top: 20px;
+    }
+    .cash_payment{
+        padding: 1px;
+        margin-left: 10px;
+        background-color: aquamarine;
+    }
+    .online_payment{
+        padding: 1px;
+        margin-left: 10px;
+        background-color: rgb(198, 245, 151);
+    }
+    
+    .cash_payment:hover{
+    color: aliceblue;
+    font-weight: bolder;
+        background-color: rgb(9, 96, 67);
+    }
+    .online_payment:hover{
+        color: aliceblue;
+        font-weight: bolder;
+        background-color: rgb(48, 91, 6);
+    }
+  }

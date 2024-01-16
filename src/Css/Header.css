@@ -1,0 +1,50 @@
+.head{
+    background-color: rgb(22, 169, 169);
+}
+.logo{
+    max-height: 50px;
+}
+.active{
+    border-bottom: 1px solid black;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px grey;
+  }
+  
+  .nav-link{
+    font-weight: 300;
+  }
+  
+  .active{
+    border-bottom: 1px solid black;
+  }
+  
+  .navbar-brand{
+    font-weight: 700;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .cart {
+    cursor: pointer;
+  }
+  .cart span:nth-child(1) {
+    color: rgb(0, 0, 0);
+  }
+  .cart span:nth-child(2) {
+    padding: 0 3px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: -5px;
+  }
+
+  span:hover{
+    color: tomato;
+  }
